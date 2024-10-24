@@ -14,7 +14,11 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@angular-monorepo/login": ["libs/login/src/index.ts"],
+      "@angular-monorepo/signup": ["libs/signup/src/index.ts"],
+      "@angular-monorepo/ui": ["libs/shared/ui/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
